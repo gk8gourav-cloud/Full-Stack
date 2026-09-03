@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.App {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #333;
+}
+
+.calendar-container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 1100px;
+  margin: auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.legend {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+.custom-event {
+  padding: 3px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.custom-event b {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.render-status,
+.optimization-status {
+  display: block;
+  font-size: 10px;
+  margin-top: 2px;
+  padding: 2px;
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+}
